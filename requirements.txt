@@ -3,3 +3,4 @@ openai
 python-dotenv
 ipython
 gradio
+bs4
