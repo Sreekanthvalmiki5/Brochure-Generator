@@ -1,0 +1,9 @@
+requests
+openai
+python-dotenv
+ipython
+gradio
+bs4
+fastapi
+uvicorn 
+python-dotenv
