@@ -39,7 +39,7 @@ const EXAMPLES = [
   { name: "OpenAI", url: "https://openai.com" },
 ];
 
-const API_URL ="https://brochure-generator-gl4j.onrender.com"
+const API_URL ="https://brochure-generator-gl4j.onrender.com/generate-brochure"
 
 function Index() {
   const [company, setCompany] = useState("");
