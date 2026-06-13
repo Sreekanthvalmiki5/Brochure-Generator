@@ -39,9 +39,7 @@ const EXAMPLES = [
   { name: "OpenAI", url: "https://openai.com" },
 ];
 
-const API_URL =
-  (import.meta.env.VITE_BROCHURE_API_URL as string | undefined) ??
-  "http://localhost:8000/generate-brochure";
+const API_URL ="https://brochure-generator-gl4j.onrender.com"
 
 function Index() {
   const [company, setCompany] = useState("");
