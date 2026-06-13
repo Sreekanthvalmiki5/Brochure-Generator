@@ -31,7 +31,7 @@ except ImportError:
     pass
 
 from openai import OpenAI          # openrouter uses the openai SDK
-from scrapper import fetch_website_contents   # your existing scrapper module
+from backend.completions.scrapper import fetch_website_contents   # your existing scrapper module
 
 # ---------------------------------------------------------------------------
 # App setup
